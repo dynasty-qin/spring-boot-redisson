@@ -14,7 +14,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
  */
 @Component
 @ControllerAdvice
-public class ExceptionHandle {
+public class GlobalExceptionHandle {
 
     @ExceptionHandler(value = IllegalPrefixOrKeyException.class)
     @ResponseBody
